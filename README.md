@@ -32,7 +32,7 @@ git clone https://github.com/webdevdinajpur/rgb-password-genarator.git
 2. Open index.html in your browser.
 
 
-##How to Contribute
+## How to Contribute
 
 Feel free to open issues or submit pull requests!
 Suggestions and improvements are always welcome. 💡
