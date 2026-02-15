@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+        <!-- FontAwesome CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+    </head>
+    <body>
+        <!-- Loader (hidden by default) -->
+        <div id="loader" class="loader hidden">
+            <div class="spinner"></div>
+        </div>
+
+        <!-- Main Card -->
+        <div class="card">
+            <h1>RGB Password Generator</h1>
+
+            <!-- Password Output -->
+            <div class="output">
+                <input
+                    type="text"
+                    id="passwordOutput"
+                    placeholder="Your password will appear here"
+                    readonly
+                />
+                <button class="copy-btn">Copy</button>
+            </div>
+
+            <!-- Options -->
+            <div class="options">
+                <label>Length: <span id="lengthValue">12</span></label>
+                <input
+                    type="range"
+                    id="lengthSlider"
+                    min="6"
+                    max="24"
+                    value="12"
+                />
+
+                <div class="checkboxes">
+                    <label
+                        ><input type="checkbox" value="lower" checked />
+                        Lowercase</label
+                    >
+                    <label
+                        ><input type="checkbox" value="upper" checked />
+                        Uppercase</label
+                    >
+                    <label
+                        ><input type="checkbox" value="number" checked />
+                        Numbers</label
+                    >
+                    <label
+                        ><input type="checkbox" value="symbol" /> Symbols</label
+                    >
+                </div>
+
+                <button class="generate-btn">Generate Password</button>
+
+                <!-- Password Strength Meter -->
+                <div class="strength">
+                    <div class="strength-bar"></div>
+                </div>
+            </div>
+        </div>
+        
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2026 Ragib. All rights reserved.</p>
+  <div class="contact-icons">
+    <a href="mailto:webdevzonebd@gmail.com" title="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://github.com/webdevdinajpur" target="_blank" title="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://facebook.com/ragib.hosen" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://ragibhosen.netlify.app" target="_blank" title="Portfolio">
+      <i class="fas fa-globe"></i>
+    </a>
+  </div>
+</footer>
+        
+        <script src="script.js" type="text/javascript" charset="utf-8"></script>
+    </body>
+</html>
