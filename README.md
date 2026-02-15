@@ -26,7 +26,8 @@ You can check a live demo [here](http://rgb-password-genarator.netlify.app) (rep
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/rgb-password-generator.git
+git clone https://github.com/webdevdinajpur/rgb-password-genarator.git
+```
 
 2. Open index.html in your browser.
 
